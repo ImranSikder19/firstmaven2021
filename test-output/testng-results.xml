@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-01T22:41:27 EST" name="Default suite" finished-at="2022-01-01T22:41:43 EST" duration-ms="15872">
+    <groups>
+    </groups>
+    <test started-at="2022-01-01T22:41:27 EST" name="Default test" finished-at="2022-01-01T22:41:43 EST" duration-ms="15872">
+      <class name="com.abc.search.GooglePage">
+        <test-method is-config="true" signature="bm()[pri:0, instance:com.abc.search.GooglePage@4944252c]" started-at="2022-01-01T22:41:27 EST" name="bm" finished-at="2022-01-01T22:41:35 EST" duration-ms="8022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="T()[pri:0, instance:com.abc.search.GooglePage@4944252c]" started-at="2022-01-01T22:41:35 EST" name="T" finished-at="2022-01-01T22:41:43 EST" duration-ms="7808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T -->
+      </class> <!-- com.abc.search.GooglePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

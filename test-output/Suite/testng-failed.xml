@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="mavenProject2021.NorthBay">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="signinTest"/>
+          <include name="BeforMethod"/>
+        </methods>
+      </class> <!-- mavenProject2021.NorthBay -->
+      <class name="com.abc.pageElement.GooglePage">
+        <methods>
+          <include name="N"/>
+          <include name="T"/>
+        </methods>
+      </class> <!-- com.abc.pageElement.GooglePage -->
+      <class name="mavenProject2021.DependsOn">
+        <methods>
+          <include name="d"/>
+          <include name="sum"/>
+          <include name="A"/>
+          <include name="B"/>
+          <include name="C"/>
+          <include name="dismiss"/>
+        </methods>
+      </class> <!-- mavenProject2021.DependsOn -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
